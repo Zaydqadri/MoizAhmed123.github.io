@@ -55,8 +55,8 @@ body{font-size:20px;color:#212529;font-family:Lora,'Times New Roman',serif}p{lin
 }
 
 #containerSlider {
-	width:auto ;
-	height: 550px;
+	width:80%;
+	height: 450px;
 	border: 1px solid black;
 	margin: 0 auto;
 	position:relative;
@@ -70,31 +70,25 @@ body{font-size:20px;color:#212529;font-family:Lora,'Times New Roman',serif}p{lin
 
 #containerSlider>button{
 	position:absolute;
-	width:0px;
-	height:0px;
+	width:50px;
+	height:50px;
 	border:none;
-	border-radius:0px;
+	border-radius:25px;
 	top:200px;
-	background:transparent;
-	color:blue;
-	font-size:50px;
+	background:blue;
+	color:white;
+	font-size:20px;
 }
 
 #containerSlider>#btn1:hover{
-	box-shadow: -10px 0px 20px 0px black;
+	box-shadow: -10px 0px 20px 0px blue;
 
 }
 
 #containerSlider>#btn2:hover{
-	box-shadow: 10px 0px 20px 0px black;
+	box-shadow: 10px 0px 20px 0px blue;
 
 }
-
-#containerSlider>#btn2{
-	position:relative;
-	float:right;
-}
-
 
 
 .containerBox {
