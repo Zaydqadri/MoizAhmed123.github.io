@@ -75,18 +75,18 @@ body{font-size:20px;color:#212529;font-family:Lora,'Times New Roman',serif}p{lin
 	border:none;
 	border-radius:25px;
 	top:200px;
-	background:blue;
+	background:black;
 	color:white;
 	font-size:20px;
 }
 
 #containerSlider>#btn1:hover{
-	box-shadow: -10px 0px 20px 0px blue;
+	box-shadow: -10px 0px 20px 0px black;
 
 }
 
 #containerSlider>#btn2:hover{
-	box-shadow: 10px 0px 20px 0px blue;
+	box-shadow: 10px 0px 20px 0px black;
 
 }
 
